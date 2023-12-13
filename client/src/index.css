@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    @apply font-primary
+}
+
+body {
+    @apply bg-secondary
+}
+
+input:active,
+input:focus {
+    @apply outline-none
+}
+
+.search-box-input::placeholder {
+    @apply text-black
+}
+
+.search-box-input {
+    @apply py-1
+}
+
+.search-box-input:active,
+.search-box-input:focus {
+    @apply outline-none
+}
+
+.signup-page {
+    height: 100vh;
+}
